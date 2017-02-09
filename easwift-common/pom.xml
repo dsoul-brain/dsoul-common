@@ -6,9 +6,9 @@
   	<artifactId>spring-mybatis</artifactId>
   	<version>1.0</version>
   </parent>
-  <artifactId>easwift-common</artifactId>
+  <artifactId>easwift-basic</artifactId>
   <packaging>jar</packaging>
-  <name>easwift-common</name>
+  <name>easwift-basic</name>
   <url>http://www.easwift.com</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -65,16 +65,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	
-	<distributionManagement>
-		<repository>
-			<id>easwift-common-release</id>
-			<url>http://192.168.0.77:8081/repository/maven-releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>easwift-common-snapshots</id>
-			<url>http://192.168.0.77:8081/repository/maven-snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
-  
 </project>
